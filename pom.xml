@@ -9,9 +9,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.esprit.examen</groupId>
-	<artifactId>5SAE2-G7-tpAchatProject</artifactId>
-	<version>1.0-SNAPSHOT</version>
-	<name>5SAE2-G7-tpAchatProject</name>
+	<artifactId>5SIM4-tpAchatProject</artifactId>
+	<version>1.0</version>
+	<name>5SIM4-tpAchatProject</name>
 	<description>Projet pour le module DevOps</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -116,10 +116,6 @@
 			<name>admin</name>
 			<url>http://192.168.17.139:8081//repository/maven-releases/</url>
 		</repository>
-		<snapshotRepository>
-			<id>deploymentRepo</id>
-			<url>http://192.168.17.139:8081//repository/maven-snapshots/</url>
-		</snapshotRepository>
 	</distributionManagement>
 
 </project>

@@ -16,7 +16,7 @@ services:
 
   springboot-app:
 #hamzaaaaaaaaaaaaaaaaaa&&&dddd
-    image: nadhirtoumi/5sae2-g7-tpachatproject:latest
+    image: dilda11/5sim4-tpachatproject:latest
     container_name: springboot-app
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://192.168.17.139:3306/achatdb?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
